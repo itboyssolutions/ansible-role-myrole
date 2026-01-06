@@ -1,0 +1,8 @@
+---
+- name: Deploy static website using myrole
+  hosts: target
+  become: yes
+  roles:
+    - myrole
+
+
